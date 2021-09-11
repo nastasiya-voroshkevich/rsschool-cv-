@@ -1,0 +1,238 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background: #9e9b9b;
+}
+.container {
+  width: 950px;
+  margin: 15px auto;
+}
+.header {
+  padding-top: 18px;
+  padding-bottom: 20px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.contacts-wrapp {
+  display: flex;
+}
+
+.header-title {
+  margin-top: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 38px;
+  margin-bottom: 10px;
+  color: #101214;
+}
+
+.header-subtitle {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 38px;
+  color: #2aaee7;
+}
+
+.contact-link {
+  align-items: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-right: 10px;
+}
+.contact-phone,
+.contact-email,
+.contact-linkedin,
+.contact-location {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 4 0 45%;
+  margin-bottom: 5px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+}
+svg path {
+  fill: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+}
+#Social_Icons {
+  width: 40px;
+  height: 40px;
+  fill: #2aaee7;
+}
+#Social_Icons:hover {
+  fill: #000000;
+}
+.wrapper {
+  padding-left: 48px;
+}
+.figure {
+  padding-right: 160px;
+}
+.photo {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url(../img/ObqvYGXjiT4.jpg) no-repeat;
+  background-size: auto 300px;
+  filter: drop-shadow(0px 2px 4px rgba(16, 18, 20, 0.08));
+}
+.section-title,
+.time {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #73808d;
+}
+.wrapper-section {
+  padding-bottom: 18px;
+  padding-left: 48px;
+  padding-right: 68px;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+}
+.left-column {
+  width: 60%;
+  margin-right: 55px;
+}
+.text {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.section-about,
+.section-education {
+  margin-bottom: 30px;
+}
+.right-column {
+  width: 25%;
+}
+.line {
+  border: 0.5px solid #73808d;
+  transform: rotate(-0.34deg);
+  margin-bottom: 10px;
+}
+.section-example > .line {
+  width: 90%;
+}
+.section-subtitle {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #101214;
+  margin-bottom: 5px;
+}
+.time {
+  text-transform: none;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+.skills-subtitle {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 18px;
+  color: #2aaee7;
+}
+.tools,
+.coding {
+  margin-bottom: 25px;
+}
+.skills-list_item {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  color: #000000;
+}
+.skills-list_item::marker {
+  color: #73808d;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.section-example {
+  background: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 40px;
+  padding-left: 48px;
+  padding-right: 68px;
+}
+.code-example {
+  padding-top: 10px;
+  width: 65%;
+  background: #69c8f1;
+}
+.footer {
+  padding-top: 5px;
+  padding-left: 28px;
+  padding-right: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #e5e5e5;
+}
+#Layer_1 {
+  width: 80px;
+  height: 80px;
+}
+#Layer_1:hover {
+  fill: #69c8f1;
+}
+.footer-year {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #101214;
+}
