@@ -64,7 +64,8 @@ Diploma project - Test simulator.
 
 -----
 > Code example:
------
+
+
 ```
 function indexEqualsValue(a) {
 for(let i = 0; i < a.length; i++){
@@ -77,12 +78,13 @@ for(let i = 0; i < a.length; i++){
 
 ```
 
+
 -----
 > Languages:
 -----
 
 * Russian - native speaker.
 
-* English - A1-A2 (B1 in process…)
+* English - A1
 
 ![Images](https://rs.school/images/rs_school.svg)
