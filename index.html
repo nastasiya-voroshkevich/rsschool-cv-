@@ -4,108 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>RSSchool CV</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="body">
     <div class="container">
       <header class="header">
-        <figure class="figure">
-          <div class="photo"></div>
-        </figure>
-        <div class="wrapper">
-          <h1 class="header-title">Anastasiya Voroshkevich</h1>
-          <h3 class="header-subtitle">Junior Front-end Developer</h3>
-          <div class="contacts-wrapp">
-            <ul class="contact">
-              <li class="contact-email">
-                <a class="contact-link" href="#">
-                  <img class="icon" src="./img/email.svg" alt="email" />
-                </a>
-                <a class="contact-link" href="mailto:nastasiya.voroshkevich@gmail.com">
-                  nastasiya.voroshkevich@gmail.com
-                </a>
-              </li>
-              <li class="contact-phone">
-                <a class="contact-link" href="#">
-                  <img class="icon" src="./img/phone.svg" alt="phone" />
-                </a>
-                <a class="contact-link" href="tel:+375298279418">+375 (29) 8279418 </a>
-              </li>
-              <li class="contact-location">
-                <a class="contact-link"
-                  href="https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B5%D1%81%D1%82"
-                  target="_blank"
-                >
-                  <img class="icon" src="./img/location.svg" alt="location" />
-                </a>
-                <span class="contact-link">Brest, Belarus</span>
-              </li>
-              <li class="contact-linkedin">
-                <a class="contact-link" href="#">
-                  <img class="icon" src="./img/linkendin.svg" alt="linkendin" />
-                </a>
-                <a class="contact-link"
-                  href="https://www.linkedin.com/in/anastasiya-voroshkevich-944390216/"
-                  target="_blank">
-                  LinkedIn
-                </a>
-              </li>
-            </ul>
+        <div class="wrapp-burger">
+          <div class="menu__burger">
+            <span></span>
+          </div>
+        </div>
+        <div class="menu-body">
+          <ul class="menu-list">
+            <li><a class="menu-list__item" href="#contacts"> Contact</a></li>
+            <li><a class="menu-list__item" href="#about">About me</a></li>
+            <li><a class="menu-list__item" href="#example">Code example</a></li>
+            <li>
+              <a class="menu-list__item" href="#projects">My recent projects</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="header-menu" id="header-menu">
+          <a class="header-menu__item" href="#contacts"> Contact</a>
+          <a class="header-menu__item" href="#about">About me</a>
+          <a class="header-menu__item" href="#example">Code example</a>
+          <a class="header-menu__item" href="#projects">My recent projects</a>
+        </nav>
+        <div class="header-content" id="contacts">
+          <figure class="figure">
+            <div class="photo"></div>
+          </figure>
+          <div class="wrapper">
+            <h1 class="header-title">Anastasiya Voroshkevich</h1>
+            <h3 class="header-subtitle">Junior Front-end Developer</h3>
+            <div class="contacts-wrapp">
+              <ul class="contact">
+                <li class="contact-email">
+                  <a class="contact-link" href="#">
+                    <img class="icon" src="./img/email.svg" alt="email" />
+                  </a>
+                  <a
+                    class="contact-link"
+                    href="mailto:nastasiya.voroshkevich@gmail.com"
+                  >
+                    nastasiya.voroshkevich@gmail.com
+                  </a>
+                </li>
+                <li class="contact-phone">
+                  <a class="contact-link" href="#">
+                    <img class="icon" src="./img/phone.svg" alt="phone" />
+                  </a>
+                  <a class="contact-link" href="tel:+375298279418"
+                    >+375 (29) 8279418
+                  </a>
+                </li>
+                <li class="contact-location">
+                  <a
+                    class="contact-link"
+                    href="https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B5%D1%81%D1%82"
+                    target="_blank"
+                  >
+                    <img class="icon" src="./img/location.svg" alt="location" />
+                  </a>
+                  <span class="contact-link">Brest, Belarus</span>
+                </li>
+                <li class="contact-linkedin">
+                  <a class="contact-link" href="#">
+                    <img
+                      class="icon"
+                      src="./img/linkendin.svg"
+                      alt="linkendin"
+                    />
+                  </a>
+                  <a
+                    class="contact-link"
+                    href="https://www.linkedin.com/in/anastasiya-voroshkevich-944390216/"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </header>
-      <main>
-        <div class="wrapper-section">
-          <div class="left-column">
-            <section class="section-about">
-              <h2 class="section-title">About me</h2>
-              <div class="line"></div>
-              <p class="text">
-                I am 31 years old. I work in a hospital as a programmer.
-                Basically, I edit information on the hospital website and
-                interact with users, work with basic programs. In my free time,
-                I am trying to upgrade my skills and knowledge in the field of
-                front-end development. I believe that through hard work I will
-                become an experienced front-end developer.
-              </p>
-            </section>
-            <section class="section-education">
-              <h2 class="section-title" >EDUCATION</h2>
-              <div class="line"></div>
-              <h4 class="section-subtitle">Brest State A.S. Pushkin University</h4>
-              <p class="time">
-                <time datetime="2011-09-01 10:00">SEPTEMBER 2011</time> -
-                <time datetime="2017-06-25 11:00"></time>JUNE 2017
-              </p>
-              <p class="text">Faculty: Physics and Mathematics.</p>
-              <p class="text">Specialty: Mathematician-programmer.</p>
-            </section>
-            <section class="section-courses">
-              <h2 class="section-title" >ADDITIONAL INFORMATION (courses)</h2>
-              <div class="line"></div>
-              <h4  class="section-subtitle">Course on HTML, CSS layout of sites, WebCademy.ru</h4>
-              <p class="time">
-                <time datetime="2020-11-01 18:00">November 2020</time> -
-                <time datetime="2021-02-05 18:00">February 2021</time>
-              </p>
-              <p class="text">
-                Learned technologies: HTML, CSS, responsive layout,
-                PixelPerfect, Bootsrtap, JS basics, jQuery, PHP.
-              </p>
-              <p class="text">The final project is the Portfolio website.</p>
-              <h4 class="section-subtitle">
-                Course "Development of Web Applications in JavaScript",
-                IT-Academy
-              </h4>
-              <p class="time">
-                <time datetime="2021-03-05 18:00">March 2021</time> -
-                <time datetime="2021-06-28 18:00">June 2021</time>
-              </p>
-              <p class="text">Learned technologies:JS.</p>
-              <p class="text">Diploma project - Test simulator.</p>
-            </section>
-          </div>
+      <main class="main">
+        <div class="wrapper-section" id="about">
           <div class="right-column">
             <section class="section-skills">
               <h2 class="section-title">Skills</h2>
@@ -137,14 +128,68 @@
               </div>
             </section>
           </div>
+          <div class="left-column">
+            <section class="section-about">
+              <h2 class="section-title">About me</h2>
+              <div class="line"></div>
+              <p class="text">
+                I am 31 years old. I work in a hospital as a programmer.
+                Basically, I edit information on the hospital website and
+                interact with users, work with basic programs. In my free time,
+                I am trying to upgrade my skills and knowledge in the field of
+                front-end development. I believe that through hard work I will
+                become an experienced front-end developer.
+              </p>
+            </section>
+            <section class="section-education">
+              <h2 class="section-title">EDUCATION</h2>
+              <div class="line"></div>
+              <h4 class="section-subtitle">
+                Brest State A.S. Pushkin University
+              </h4>
+              <p class="time">
+                <time datetime="2011-09-01 10:00">SEPTEMBER 2011</time> -
+                <time datetime="2017-06-25 11:00"></time>JUNE 2017
+              </p>
+              <p class="text">Faculty: Physics and Mathematics.</p>
+              <p class="text">Specialty: Mathematician-programmer.</p>
+            </section>
+            <section class="section-courses">
+              <h2 class="section-title">ADDITIONAL INFORMATION (courses)</h2>
+              <div class="line"></div>
+              <h4 class="section-subtitle">
+                Course on HTML, CSS layout of sites, WebCademy.ru
+              </h4>
+              <p class="time">
+                <time datetime="2020-11-01 18:00">November 2020</time> -
+                <time datetime="2021-02-05 18:00">February 2021</time>
+              </p>
+              <p class="text">
+                Learned technologies: HTML, CSS, responsive layout,
+                PixelPerfect, Bootsrtap, JS basics, jQuery, PHP.
+              </p>
+              <p class="text">The final project is the Portfolio website.</p>
+              <h4 class="section-subtitle">
+                Course "Development of Web Applications in JavaScript",
+                IT-Academy
+              </h4>
+              <p class="time">
+                <time datetime="2021-03-05 18:00">March 2021</time> -
+                <time datetime="2021-06-28 18:00">June 2021</time>
+              </p>
+              <p class="text">Learned technologies:JS.</p>
+              <p class="text">Diploma project - Test simulator.</p>
+            </section>
+          </div>
         </div>
 
-        <section class="section-example">
+        <section class="section-example" id="example">
           <h2 class="section-title">Code example</h2>
           <div class="line"></div>
           <details>
             <summary class="section-subtitle">Simple example</summary>
-            <pre class="code-example">
+            <pre>
+              <code class="html">
             const first = (arr, n) => {
               if (n >= 0) {
                 return arr.splice(0, n);
@@ -153,8 +198,40 @@
             };             
           
             console.log(first([7, 9, 0, -2],3))
+             </code>
            </pre>
           </details>
+        </section>
+        <section class="section-project" id="projects">
+          <h2 class="section-title">My recent projects</h2>
+          <div class="line"></div>
+          <div class="wrapp-project">
+            <a
+              class="project-card"
+              href="https://nastasiya-voroshkevich.github.io/Unit/"
+              target="_blank"
+            >
+              <img src="./img/UNIT.jpg" alt="UNIT" />
+              <h3 class="section-subtitle unit-padding">UNIT</h3>
+              <p class="text">
+                Mobile adaptation using the mobile-first method. Using the LESS
+                preprocessor. Made by me in the course of training site layout
+                at WebCademy.ru.
+              </p>
+            </a>
+            <a
+              class="project-card"
+              href="https://nastasiya-voroshkevich.github.io/portfolio/"
+              target="_blank"
+            >
+              <img src="./img/portfolio.jpg" alt="portfolio" />
+              <h3 class="section-subtitle">Portfolio</h3>
+              <p class="text">
+                Technologies used: HTML, CSS, LESS, jQuery, PHP. Made by me in
+                the course of training site layout at WebCademy.ru.
+              </p>
+            </a>
+          </div>
         </section>
       </main>
       <footer class="footer">
@@ -176,7 +253,8 @@
                   fill="none"
                   fill-rule="evenodd"
                   height="428"
-                  width="428"/>
+                  width="428"
+                />
                 <path
                   clip-rule="evenodd"
                   d="M63.996,1.333C28.656,1.333,0,30.099,0,65.591    c0,28.384,18.336,52.467,43.772,60.965c3.2,0.59,4.368-1.394,4.368-3.096c0-1.526-0.056-5.566-0.088-10.927    c-17.804,3.883-21.56-8.614-21.56-8.614c-2.908-7.421-7.104-9.397-7.104-9.397c-5.812-3.988,0.44-3.907,0.44-3.907    c6.42,0.454,9.8,6.622,9.8,6.622c5.712,9.819,14.98,6.984,18.628,5.337c0.58-4.152,2.236-6.984,4.064-8.59    c-14.212-1.622-29.152-7.132-29.152-31.753c0-7.016,2.492-12.75,6.588-17.244c-0.66-1.626-2.856-8.156,0.624-17.003    c0,0,5.376-1.727,17.6,6.586c5.108-1.426,10.58-2.136,16.024-2.165c5.436,0.028,10.912,0.739,16.024,2.165    c12.216-8.313,17.58-6.586,17.58-6.586c3.492,8.847,1.296,15.377,0.636,17.003c4.104,4.494,6.58,10.228,6.58,17.244    c0,24.681-14.964,30.115-29.22,31.705c2.296,1.984,4.344,5.903,4.344,11.899c0,8.59-0.08,15.517-0.08,17.626    c0,1.719,1.152,3.719,4.4,3.088C109.68,118.034,128,93.967,128,65.591C128,30.099,99.344,1.333,63.996,1.333"
@@ -402,5 +480,10 @@
         </a>
       </footer>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <script src="./libs/main.js"></script>
   </body>
 </html>
