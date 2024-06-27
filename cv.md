@@ -18,7 +18,7 @@ Junior Front-end Developer
 > About me:
 -----
 
- I am 31 years old. I work in a hospital as a programmer. Basically, I edit information on the hospital website and interact with users, work with basic programs. In my free time, I am trying to upgrade my skills and knowledge in the field of front-end development. I believe that through hard work I will become an experienced front-end developer.
+ I am 34 years old. I work in a hospital as a programmer. Basically, I edit information on the hospital website and interact with users, work with basic programs. In my free time, I am trying to upgrade my skills and knowledge in the field of front-end development. I believe that through hard work I will become an experienced front-end developer.
 
 
 -----
@@ -85,6 +85,6 @@ for(let i = 0; i < a.length; i++){
 
 * Russian - native speaker.
 
-* English - A1
+* English - A2
 
-![Images](https://rs.school/images/rs_school.svg)
+![Images](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/195px-Markdown-mark.svg.png)
