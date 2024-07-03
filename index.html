@@ -142,12 +142,11 @@
             <pre class="code-example">
             const first = (arr, n) =&gt;&nbsp;{
               if (n &gt;= 0) {
-                return arr.splice(0, n);
+              return arr.splice(0, n);
               }
               return !n ? arr[0] : []
-            };             
-          
-            console.log(first([7, 9, 0, -2],3))
+              };
+              console.log(first([7, 9, 0, -2],3))
            </pre>
           </details>
         </section>
